@@ -1,0 +1,246 @@
+{
+	"info": {
+		"_postman_id": "4bb32d47-1750-4ac4-940a-bb72dab96e6a",
+		"name": "Mayab",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34723440",
+		"_collection_link": "https://planetary-shuttle-401033.postman.co/workspace/My-Workspace~3eaa91d6-d093-4756-88dc-75fb8c33bc0c/collection/34723440-4bb32d47-1750-4ac4-940a-bb72dab96e6a?action=share&source=collection_link&creator=34723440"
+	},
+	"item": [
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "Doctor",
+					"item": [
+						{
+							"name": "register",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{BaseUrl}}{{user}}registerDoc",
+									"host": [
+										"{{BaseUrl}}{{user}}registerDoc"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "surname",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "DPI",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "phone",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{BaseUrl}}{{user}}register",
+							"host": [
+								"{{BaseUrl}}{{user}}register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "email",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "phone",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "DPI",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{BaseUrl}}{{user}}login",
+							"host": [
+								"{{BaseUrl}}{{user}}login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Contact",
+			"item": [
+				{
+					"name": "add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{BaseUrl}}{{contact}}/add",
+							"host": [
+								"{{BaseUrl}}{{contact}}"
+							],
+							"path": [
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{BaseUrl}}{{contact}}uptd",
+							"host": [
+								"{{BaseUrl}}{{contact}}uptd"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{BaseUrl}}{{contact}}delete",
+							"host": [
+								"{{BaseUrl}}{{contact}}delete"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BaseUrl}}{{contact}}myContacts",
+							"host": [
+								"{{BaseUrl}}{{contact}}myContacts"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "BaseUrl",
+			"value": "localhost:2656/",
+			"type": "string"
+		},
+		{
+			"key": "user",
+			"value": "user/",
+			"type": "string"
+		},
+		{
+			"key": "date",
+			"value": "date/",
+			"type": "string"
+		},
+		{
+			"key": "complaint",
+			"value": "complaint/",
+			"type": "string"
+		},
+		{
+			"key": "sedes",
+			"value": "sedes/",
+			"type": "string"
+		},
+		{
+			"key": "historial",
+			"value": "historial/",
+			"type": "string"
+		},
+		{
+			"key": "contact",
+			"value": "contact/",
+			"type": "string"
+		}
+	]
+}

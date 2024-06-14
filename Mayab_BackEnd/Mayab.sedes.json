@@ -1,0 +1,213 @@
+[
+  {
+    "_id": {
+      "$oid": "6656ce0fe5cec61d09955d91"
+    },
+    "nombre": "Unidad Periférica, Zona 11,Guatemala",
+    "direccion": "5a. Avenida 10-86 zona 11",
+    "ubicacion": "https://www.google.com.gt/maps/place/Unidad+Perif%C3%A9rica+del+IGSS/@14.6074264,-90.543201,16z/data=!4m2!3m1!1s0x8589a174d362a027:0xf5956c0e076ed29",
+    "coordenadas": [
+      {
+        "latitud": "14.6074264",
+        "longitud": "-90.543201",
+        "_id": {
+          "$oid": "6656ce0fe5cec61d09955d92"
+        }
+      }
+    ],
+    "departamento": "Guatemala",
+    "municipio": "Ciudad de Guatemala",
+    "telefono": 24755151
+  },
+ 
+  {
+    "_id": {
+      "$oid": "6656ce0fe5cec61d09955d94"
+    },
+    "nombre": "Consultorio de Villa Canales, Zona 2, Guatemala",
+    "direccion": "1a. calle “B” 2-39, colonia Santa Delfina, zona 2 de Villa Canales",
+    "coordenadas": [
+      {
+        "latitud": "14.4858418",
+        "longitud": "-90.5338301",
+        "_id": {
+          "$oid": "6656ce0fe5cec61d09955d95"
+        }
+      }
+    ],
+    "ubicacion": "https://www.google.com.gt/maps/dir//14.4856688,-90.5343694/@14.4858418,-90.5338301,17z/data=!4m4!4m3!1m0!1m0!3e0",
+    "departamento": "Guatemala",
+    "municipio": "Villa Nueva",
+    "telefono": 66350740
+  },
+  {
+    "_id": {
+      "$oid": "6656ce0fe5cec61d09955d97"
+    },
+    "nombre": "Dirección Departamental Alta Verapaz",
+    "direccion": "5a. avenida 2-43 zona 1, Cobán, Alta Verapaz",
+    "coordenadas": [
+      {
+        "latitud": "14.637854",
+        "longitud": "-90.512010",
+        "_id": {
+          "$oid": "6656ce0fe5cec61d09955d98"
+        }
+      }
+    ],
+    "ubicacion": "https://www.google.com/maps/place/Direccion+Departamental+de+Educacion+de+Alta+Verapaz/@15.416428,-90.3251457,17z/data=!3m1!4b1!4m5!3m4!1s0x858a4072272ee839:0xdd121b81ec2ee4d5!8m2!3d15.416428!4d-90.322957",
+    "departamento": "Alta Verapaz",
+    "municipio": "Cobán",
+    "telefono": 79521074
+  },
+  {
+    "_id": {
+      "$oid": "6656ce0fe5cec61d09955d9a"
+    },
+    "nombre": "Hospital IGSS Cobán, Alta Verapaz",
+    "direccion": "8 avenida 3-2, zona 4, Cobán, Alta Verapaz",
+    "coordenadas": [
+      {
+        "latitud": "15.4729142",
+        "longitud": "-90.3675901",
+        "_id": {
+          "$oid": "6656ce0fe5cec61d09955d9b"
+        }
+      }
+    ],
+    "ubicacion": "https://www.google.com/maps/place/Hospital+y+Emergencias+IGSS+Cob%C3%A1n/@15.4729142,-90.3675901,15z/data=!4m2!3m1!1s0x0:0x629ecc5d6c4bde?sa=X&ved=2ahUKEwidsoeD57z5AhUfZzABHVXVDBEQ_BJ6BAhjEAU",
+    "departamento": "Alta Verapaz",
+    "municipio": "Cobán",
+    "telefono": 79511252
+  },
+  {
+    "_id": {
+      "$oid": "6656ce0fe5cec61d09955d9d"
+    },
+    "nombre": "Dirección Departamental de Baja Verapaz",
+    "direccion": "5ta. Calle 8-98, zona 1, Barrio el Centro Salamá Baja Verapaz",
+    "coordenadas": [
+      {
+        "latitud": "15.101765",
+        "longitud": "-90.31737",
+        "_id": {
+          "$oid": "6656ce0fe5cec61d09955d9e"
+        }
+      }
+    ],
+    "ubicacion": "https://www.google.com/maps/place/Direccion+Departamental+Del+IGSS+Salama/@15.101765,-90.31737,15z/data=!4m5!3m4!1s0x0:0xa3e657a644baedf2!8m2!3d15.101765!4d-90.31737",
+    "departamento": "Baja Verapaz",
+    "municipio": "Saláma",
+    "telefono": 77661234
+  },
+ 
+ 
+  {
+    "_id": {
+      "$oid": "6656ce0fe5cec61d09955da0"
+    },
+    "nombre": "Consultorio IGSS Salamá, Baja Verapaz",
+    "direccion": "10 avenida 5-65 y 10 avenida 5-55 zona 1 Salamá, Baja Verapaz",
+    "coordenadas": [
+      {
+        "latitud": "15.1006731",
+        "longitud": "-90.3176647",
+        "_id": {
+          "$oid": "6656ce0fe5cec61d09955da1"
+        }
+      }
+    ],
+    "ubicacion": "https://www.google.com/maps/place/Consultorio+IGSS+Salam%C3%A1/@15.1006731,-90.3176647,15z/data=!4m5!3m4!1s0x0:0x66fe6a6f8436b226!8m2!3d15.1006731!4d-90.3176647",
+    "departamento": "Baja Verapaz",
+    "municipio": "Saláma",
+    "telefono": 79400160
+  },
+ 
+ 
+  {
+    "_id": {
+      "$oid": "6656ce0fe5cec61d09955da3"
+    },
+    "nombre": "Consultorio de Chiquimula",
+    "direccion": "Calzada Héctor Augusto España Bracamonte 9-47, Edificio Plaza Minerva zona 2, Chiquimula.",
+    "coordenadas": [
+      {
+        "latitud": "14.8054515",
+        "longitud": "-89.5422706",
+        "_id": {
+          "$oid": "6656ce0fe5cec61d09955da4"
+        }
+      }
+    ],
+    "ubicacion": "https://www.google.com/maps/place/IGSS,+CONSULTORIO+CHIQUIMULA+Plaza+Minerva/@14.8054515,-89.5422706,15z/data=!4m5!3m4!1s0x0:0x6272bf6cb2be17b!8m2!3d14.8054515!4d-89.5422706",
+    "departamento": "Chiquimula",
+    "municipio": "Chiquimula",
+    "telefono": 79422422
+  },
+ 
+ 
+  {
+    "_id": {
+      "$oid": "6656ce0fe5cec61d09955da6"
+    },
+    "nombre": "Consultorio de Guastatoya, El Progreso",
+    "direccion": "Calle Ramiro de León Barrio El Porvenir, Guastatoya, El Progreso",
+    "coordenadas": [
+      {
+        "latitud": "14.8565125",
+        "longitud": "-90.0710832",
+        "_id": {
+          "$oid": "6656ce0fe5cec61d09955da7"
+        }
+      }
+    ],
+    "ubicacion": "https://www.google.com/maps/place/IGSS/@14.8565125,-90.0710832,15z/data=!4m5!3m4!1s0x0:0xaa3712cfe14256a3!8m2!3d14.8565125!4d-90.0710832",
+    "departamento": "El Progreso",
+    "municipio": "Guastatoya",
+    "telefono":  79451494
+  },
+ 
+ 
+  {
+    "_id": {
+      "$oid": "6656ce0fe5cec61d09955da1"
+    },
+    "nombre": "Hospital Departamental de Puerto Barrios, Izabal",
+    "direccion": "Avenida General Ubico, entre 22 y 23 calle, Puerto Barrios Izabal",
+    "coordenadas": [
+      {
+        "latitud": "15.7171109",
+        "longitud": "-88.593176",
+        "_id": {
+          "$oid": "6656ce0fe5cec61d0995daa"
+        }
+      }
+    ],
+    "ubicacion": "https://www.google.com/maps/place/Hospital+Igss+Puerto+Barrios/@15.7171109,-88.593176,15z/data=!4m5!3m4!1s0x0:0x218fd2378565f2f1!8m2!3d15.7171109!4d-88.593176",
+    "departamento": "Izabal",
+    "municipio": "Puerto Barrios",
+    "telefono": 79487696
+  },
+ 
+  {
+    "_id": {
+      "$oid": "6656ce0fe5cec61d09955da4"
+    },
+    "nombre": "Dirección Departamental de Zacapa",
+    "direccion": "13 avenida 8-31 zona 1, Zacapa, Zacapa",
+    "coordenadas": [
+      {
+        "latitud": "14.9629453",
+        "longitud": "-89.5250645",
+        "_id": {
+          "$oid": "6656ce0fe5cec61d09953daa"
+        }
+      }
+    ],
+    "ubicacion": "https://www.google.com/maps/place/IGSS+Delegaci%C3%B3n+Departamental+de+Zacapa./@14.9629453,-89.5250645,17z/data=!4m5!3m4!1s0x8f6228e9ebcfe131:0x2cac451d67623e4d!8m2!3d14.9629453!4d-89.5250645?authuser=0&hl=es-419",
+    "departamento": "Zacapa",
+    "municipio": "Zacapa",
+    "telefono":  77928081
+  }
+ 
+]

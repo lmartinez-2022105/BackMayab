@@ -1,0 +1,14 @@
+[{
+  "_id": {
+    "$oid": "6662a4f7f9d043a7d69b2957"
+  },
+  "ambulance": {
+    "$oid": "6662a3f9f9d043a7d69b294d"
+  },
+  "paramedics": [
+    {
+      "$oid": "6662a48ef9d043a7d69b2955"
+    }
+  ],
+  "status": true
+}]

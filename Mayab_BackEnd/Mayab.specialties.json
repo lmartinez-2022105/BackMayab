@@ -1,0 +1,105 @@
+[{
+  "_id": {
+    "$oid": "665c1196029ecded6d88337e"
+  },
+  "title": "Urología",
+  "description": "Rama de la medicina que se encarga del estudio y tratamiento de las enfermedades del aparato urinario, tanto masculino como femenino, y del sistema reproductor masculino."
+},
+{
+  "_id": {
+    "$oid": "665c1196029ecded6d88337f"
+  },
+  "title": "Ginecología",
+  "description": "Especialidad médica que se dedica al estudio y tratamiento de las enfermedades del sistema reproductor femenino."
+},
+{
+  "_id": {
+    "$oid": "665c1196029ecded6d883380"
+  },
+  "title": "Otorrinolaringología",
+  "description": "Especialidad médica que se ocupa del estudio de las enfermedades del oído, nariz, garganta y áreas relacionadas de la cabeza y el cuello."
+},
+{
+  "_id": {
+    "$oid": "665c1196029ecded6d883381"
+  },
+  "title": "Reumatología",
+  "description": "Rama de la medicina que se ocupa del estudio de las enfermedades reumáticas, que afectan a las articulaciones, los músculos, los huesos y otros tejidos conectivos."
+},
+{
+  "_id": {
+    "$oid": "665c1196029ecded6d883382"
+  },
+  "title": "Neumología",
+  "description": "Especialidad médica que se encarga del estudio y tratamiento de las enfermedades del aparato respiratorio, como el asma, la bronquitis, el enfisema y la neumonía."
+},
+{
+  "_id": {
+    "$oid": "665c1196029ecded6d883374"
+  },
+  "title": "Cardiología",
+  "description": "Especialidad médica que se ocupa del estudio, diagnóstico y tratamiento de las enfermedades del corazón y del aparato circulatorio."
+},
+{
+  "_id": {
+    "$oid": "665c1196029ecded6d88337d"
+  },
+  "title": "Psiquiatría",
+  "description": "Rama de la medicina que se dedica al estudio, diagnóstico, tratamiento y prevención de los trastornos mentales, emocionales y de comportamiento."
+},
+{
+  "_id": {
+    "$oid": "665c1196029ecded6d883375"
+  },
+  "title": "Dermatología",
+  "description": "Especialidad médica que se encarga del estudio de la estructura y función de la piel, así como de las enfermedades que la afectan."
+},
+{
+  "_id": {
+    "$oid": "665c1196029ecded6d883376"
+  },
+  "title": "Neurología",
+  "description": "Rama de la medicina que se encarga del estudio del sistema nervioso y sus enfermedades, tanto del sistema nervioso central como del periférico."
+},
+{
+  "_id": {
+    "$oid": "665c1196029ecded6d883377"
+  },
+  "title": "Gastroenterología",
+  "description": "Especialidad médica que se dedica al estudio de las enfermedades del aparato digestivo, incluyendo el esófago, estómago, intestinos, hígado y páncreas."
+},
+{
+  "_id": {
+    "$oid": "665c1196029ecded6d883378"
+  },
+  "title": "Pediatría",
+  "description": "Rama de la medicina que se especializa en el cuidado y tratamiento de los niños, desde el nacimiento hasta la adolescencia."
+},
+{
+  "_id": {
+    "$oid": "665c1196029ecded6d883379"
+  },
+  "title": "Oftalmología",
+  "description": "Especialidad médica que se ocupa del estudio, diagnóstico y tratamiento de las enfermedades del ojo y sus anexos."
+},
+{
+  "_id": {
+    "$oid": "665c1196029ecded6d88337a"
+  },
+  "title": "Oncología",
+  "description": "Rama de la medicina que se dedica al estudio de los tumores y al tratamiento del cáncer."
+},
+{
+  "_id": {
+    "$oid": "665c1196029ecded6d88337b"
+  },
+  "title": "Endocrinología",
+  "description": "Especialidad médica que se encarga del estudio de las glándulas endocrinas y sus trastornos, así como del metabolismo y los trastornos hormonales."
+},
+{
+  "_id": {
+    "$oid": "665c1196029ecded6d88337c"
+  },
+  "title": "Traumatología",
+  "description": "Rama de la medicina que se ocupa del tratamiento de las lesiones traumáticas o de origen mecánico del sistema musculoesquelético."
+}]

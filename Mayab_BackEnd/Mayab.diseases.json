@@ -1,0 +1,408 @@
+[{
+  "_id": {
+    "$oid": "666142119a1a11070bdf6aa2"
+  },
+  "name": "Infección del tracto urinario",
+  "description": "Infección bacteriana en cualquier parte del sistema urinario.",
+  "symptoms": "Dolor al orinar, necesidad frecuente de orinar, orina turbia.",
+  "severity": "BAJO",
+  "specialtyRequired": {
+    "$oid": "665c1196029ecded6d88337e"
+  }
+},
+{
+  "_id": {
+    "$oid": "666142119a1a11070bdf6aa5"
+  },
+  "name": "Cálculos renales",
+  "description": "Acumulación de cristales en los riñones que forman piedras.",
+  "symptoms": "Dolor intenso en el costado o la espalda baja, sangre en la orina, náuseas.",
+  "severity": "MEDIO",
+  "specialtyRequired": {
+    "$oid": "665c1196029ecded6d88337e"
+  }
+},
+{
+  "_id": {
+    "$oid": "666142119a1a11070bdf6aa8"
+  },
+  "name": "Prostatitis",
+  "description": "Inflamación de la próstata.",
+  "symptoms": "Dolor en la pelvis, dificultad para orinar, dolor al eyacular.",
+  "severity": "MEDIO",
+  "specialtyRequired": {
+    "$oid": "665c1196029ecded6d88337e"
+  }
+},
+{
+  "_id": {
+    "$oid": "666142119a1a11070bdf6aab"
+  },
+  "name": "Hiperplasia prostática benigna",
+  "description": "Agrandamiento de la próstata que puede causar problemas urinarios.",
+  "symptoms": "Dificultad para orinar, micción frecuente, orina débil.",
+  "severity": "BAJO",
+  "specialtyRequired": {
+    "$oid": "665c1196029ecded6d88337e"
+  }
+},
+{
+  "_id": {
+    "$oid": "666142119a1a11070bdf6aae"
+  },
+  "name": "Infección vaginal por levaduras",
+  "description": "Infección micótica común en las mujeres.",
+  "symptoms": "Picazón vaginal, flujo vaginal espeso y blanco, dolor durante las relaciones sexuales.",
+  "severity": "BAJO",
+  "specialtyRequired": {
+    "$oid": "665c1196029ecded6d88337f"
+  }
+},
+{
+  "_id": {
+    "$oid": "666142119a1a11070bdf6ab1"
+  },
+  "name": "Endometriosis",
+  "description": "Crecimiento anormal de tejido similar al revestimiento del útero fuera del útero.",
+  "symptoms": "Dolor pélvico intenso, dolor durante las relaciones sexuales, sangrado menstrual abundante.",
+  "severity": "ALTO",
+  "specialtyRequired": {
+    "$oid": "665c1196029ecded6d88337f"
+  }
+},
+{
+  "_id": {
+    "$oid": "666142119a1a11070bdf6ab4"
+  },
+  "name": "Síndrome premenstrual",
+  "description": "Conjunto de síntomas físicos y emocionales antes del período menstrual.",
+  "symptoms": "Cambios de humor, sensibilidad en los senos, fatiga.",
+  "severity": "BAJO",
+  "specialtyRequired": {
+    "$oid": "665c1196029ecded6d88337f"
+  }
+},
+{
+  "_id": {
+    "$oid": "666142119a1a11070bdf6ab7"
+  },
+  "name": "Pólipos uterinos",
+  "description": "Crecimientos no cancerosos en el revestimiento del útero.",
+  "symptoms": "Sangrado entre períodos, sangrado abundante durante el período, dolor pélvico.",
+  "severity": "MEDIO",
+  "specialtyRequired": {
+    "$oid": "665c1196029ecded6d88337f"
+  }
+},
+{
+  "_id": {
+    "$oid": "666142119a1a11070bdf6aba"
+  },
+  "name": "Sinusitis",
+  "description": "Inflamación de los senos paranasales.",
+  "symptoms": "Congestión nasal, presión facial, dolor de cabeza.",
+  "severity": "MEDIO",
+  "specialtyRequired": {
+    "$oid": "665c1196029ecded6d883380"
+  }
+},
+{
+  "_id": {
+    "$oid": "666142119a1a11070bdf6abd"
+  },
+  "name": "Otalgia",
+  "description": "Dolor de oído.",
+  "symptoms": "Dolor en el oído, sensibilidad al tacto, pérdida de audición.",
+  "severity": "BAJO",
+  "specialtyRequired": {
+    "$oid": "665c1196029ecded6d883380"
+  }
+},
+{
+  "_id": {
+    "$oid": "666142119a1a11070bdf6ac0"
+  },
+  "name": "Artritis reumatoide",
+  "description": "Enfermedad autoinmune que causa inflamación en las articulaciones.",
+  "symptoms": "Dolor, rigidez y hinchazón en las articulaciones, fatiga, fiebre baja.",
+  "severity": "ALTO",
+  "specialtyRequired": {
+    "$oid": "665c1196029ecded6d883381"
+  }
+},
+{
+  "_id": {
+    "$oid": "666142119a1a11070bdf6ac3"
+  },
+  "name": "Osteoartritis",
+  "description": "Degeneración del cartílago en las articulaciones.",
+  "symptoms": "Dolor en las articulaciones, rigidez, hinchazón.",
+  "severity": "MEDIO",
+  "specialtyRequired": {
+    "$oid": "665c1196029ecded6d883381"
+  }
+},
+{
+  "_id": {
+    "$oid": "666142119a1a11070bdf6ac6"
+  },
+  "name": "Asma",
+  "description": "Enfermedad crónica de las vías respiratorias que causa dificultad para respirar.",
+  "symptoms": "Sibilancias, opresión en el pecho, tos.",
+  "severity": "MEDIO",
+  "specialtyRequired": {
+    "$oid": "665c1196029ecded6d883382"
+  }
+},
+{
+  "_id": {
+    "$oid": "666142119a1a11070bdf6ac9"
+  },
+  "name": "Enfermedad pulmonar obstructiva crónica (EPOC)",
+  "description": "Enfermedad pulmonar que obstruye el flujo de aire y dificulta la respiración.",
+  "symptoms": "Dificultad para respirar, tos crónica, producción excesiva de flema.",
+  "severity": "ALTO",
+  "specialtyRequired": {
+    "$oid": "665c1196029ecded6d883382"
+  }
+},
+{
+  "_id": {
+    "$oid": "666142119a1a11070bdf6acc"
+  },
+  "name": "Infarto de miocardio",
+  "description": "Bloqueo del flujo de sangre al corazón que causa daño al músculo cardíaco.",
+  "symptoms": "Dolor en el pecho, dificultad para respirar, náuseas.",
+  "severity": "ALTO",
+  "specialtyRequired": {
+    "$oid": "665c1196029ecded6d883374"
+  }
+},
+{
+  "_id": {
+    "$oid": "666142119a1a11070bdf6acf"
+  },
+  "name": "Hipertensión arterial",
+  "description": "Presión arterial alta que aumenta el riesgo de enfermedades cardiovasculares.",
+  "symptoms": "Dolor de cabeza, fatiga, visión borrosa.",
+  "severity": "MEDIO",
+  "specialtyRequired": {
+    "$oid": "665c1196029ecded6d883374"
+  }
+},
+{
+  "_id": {
+    "$oid": "666142119a1a11070bdf6ad2"
+  },
+  "name": "Depresión",
+  "description": "Trastorno del estado de ánimo que causa sentimientos persistentes de tristeza y pérdida de interés.",
+  "symptoms": "Tristeza persistente, pérdida de interés en actividades, cambios en el apetito o el sueño.",
+  "severity": "ALTO",
+  "specialtyRequired": {
+    "$oid": "665c1196029ecded6d88337d"
+  }
+},
+{
+  "_id": {
+    "$oid": "666142119a1a11070bdf6ad5"
+  },
+  "name": "Trastorno de ansiedad",
+  "description": "Trastorno mental caracterizado por sentimientos intensos de preocupación y miedo.",
+  "symptoms": "Nerviosismo, sensación de peligro inminente, ritmo cardíaco rápido.",
+  "severity": "MEDIO",
+  "specialtyRequired": {
+    "$oid": "665c1196029ecded6d88337d"
+  }
+},
+{
+  "_id": {
+    "$oid": "666142119a1a11070bdf6ad8"
+  },
+  "name": "Acné",
+  "description": "Trastorno de la piel que causa espinillas y puntos negros.",
+  "symptoms": "Espinillas, puntos negros, lesiones inflamatorias.",
+  "severity": "BAJO",
+  "specialtyRequired": {
+    "$oid": "665c1196029ecded6d883375"
+  }
+},
+{
+  "_id": {
+    "$oid": "666142119a1a11070bdf6adb"
+  },
+  "name": "Dermatitis atópica",
+  "description": "Trastorno de la piel que causa enrojecimiento, picazón e inflamación.",
+  "symptoms": "Piel seca, picazón intensa, enrojecimiento.",
+  "severity": "MEDIO",
+  "specialtyRequired": {
+    "$oid": "665c1196029ecded6d883375"
+  }
+},
+{
+  "_id": {
+    "$oid": "666142119a1a11070bdf6ade"
+  },
+  "name": "Migraña",
+  "description": "Tipo de dolor de cabeza que causa dolor intenso y pulsátil.",
+  "symptoms": "Dolor de cabeza intenso, náuseas, sensibilidad a la luz y al sonido.",
+  "severity": "MEDIO",
+  "specialtyRequired": {
+    "$oid": "665c1196029ecded6d883376"
+  }
+},
+{
+  "_id": {
+    "$oid": "666142119a1a11070bdf6ae1"
+  },
+  "name": "Epilepsia",
+  "description": "Trastorno neurológico que causa convulsiones repetidas e impredecibles.",
+  "symptoms": "Convulsiones, pérdida de conciencia, movimientos involuntarios.",
+  "severity": "ALTO",
+  "specialtyRequired": {
+    "$oid": "665c1196029ecded6d883376"
+  }
+},
+{
+  "_id": {
+    "$oid": "666142119a1a11070bdf6ae4"
+  },
+  "name": "Reflujo gastroesofágico (ERGE)",
+  "description": "Regreso del contenido del estómago al esófago, causando irritación.",
+  "symptoms": "Acidez estomacal, regurgitación ácida, dolor en el pecho.",
+  "severity": "MEDIO",
+  "specialtyRequired": {
+    "$oid": "665c1196029ecded6d883377"
+  }
+},
+{
+  "_id": {
+    "$oid": "666142119a1a11070bdf6ae7"
+  },
+  "name": "Colitis ulcerosa",
+  "description": "Enfermedad inflamatoria intestinal que causa inflamación y úlceras en el colon y el recto.",
+  "symptoms": "Diarrea sanguinolenta, dolor abdominal, fatiga.",
+  "severity": "ALTO",
+  "specialtyRequired": {
+    "$oid": "665c1196029ecded6d883377"
+  }
+},
+{
+  "_id": {
+    "$oid": "666142119a1a11070bdf6aea"
+  },
+  "name": "Infección de oído",
+  "description": "Inflamación del oído medio, común en niños pequeños.",
+  "symptoms": "Dolor de oído, irritabilidad, fiebre.",
+  "severity": "MEDIO",
+  "specialtyRequired": {
+    "$oid": "665c1196029ecded6d883378"
+  }
+},
+{
+  "_id": {
+    "$oid": "666142119a1a11070bdf6aed"
+  },
+  "name": "Asma infantil",
+  "description": "Trastorno respiratorio crónico que afecta las vías respiratorias en los niños.",
+  "symptoms": "Sibilancias, dificultad para respirar, tos crónica.",
+  "severity": "ALTO",
+  "specialtyRequired": {
+    "$oid": "665c1196029ecded6d883378"
+  }
+},
+{
+  "_id": {
+    "$oid": "666142129a1a11070bdf6af0"
+  },
+  "name": "Conjuntivitis",
+  "description": "Inflamación de la membrana transparente que cubre el ojo y el interior del párpado.",
+  "symptoms": "Ojos rojos, picazón, secreción acuosa.",
+  "severity": "BAJO",
+  "specialtyRequired": {
+    "$oid": "665c1196029ecded6d883379"
+  }
+},
+{
+  "_id": {
+    "$oid": "666142129a1a11070bdf6af3"
+  },
+  "name": "Degeneración macular",
+  "description": "Daño en la parte central de la retina, que afecta la visión central.",
+  "symptoms": "Visión borrosa, dificultad para ver detalles finos, manchas oscuras.",
+  "severity": "ALTO",
+  "specialtyRequired": {
+    "$oid": "665c1196029ecded6d883379"
+  }
+},
+{
+  "_id": {
+    "$oid": "666142129a1a11070bdf6af6"
+  },
+  "name": "Cáncer de mama",
+  "description": "Crecimiento anormal de células malignas en el tejido mamario.",
+  "symptoms": "Bulto en el seno, cambios en el tamaño o la forma del seno, secreción del pezón.",
+  "severity": "ALTO",
+  "specialtyRequired": {
+    "$oid": "665c1196029ecded6d88337a"
+  }
+},
+{
+  "_id": {
+    "$oid": "666142129a1a11070bdf6af9"
+  },
+  "name": "Leucemia",
+  "description": "Cáncer de la médula ósea y los glóbulos blancos de la sangre.",
+  "symptoms": "Fatiga, palidez, infecciones frecuentes.",
+  "severity": "ALTO",
+  "specialtyRequired": {
+    "$oid": "665c1196029ecded6d88337a"
+  }
+},
+{
+  "_id": {
+    "$oid": "666142129a1a11070bdf6afc"
+  },
+  "name": "Diabetes tipo 1",
+  "description": "Trastorno autoinmune que afecta la capacidad del cuerpo para producir insulina.",
+  "symptoms": "Aumento de la sed, micción frecuente, fatiga extrema.",
+  "severity": "ALTO",
+  "specialtyRequired": {
+    "$oid": "665c1196029ecded6d88337b"
+  }
+},
+{
+  "_id": {
+    "$oid": "666142129a1a11070bdf6aff"
+  },
+  "name": "Hipotiroidismo",
+  "description": "Bajo funcionamiento de la glándula tiroides, lo que lleva a una disminución de la producción de hormonas tiroideas.",
+  "symptoms": "Fatiga, aumento de peso, piel seca.",
+  "severity": "MEDIO",
+  "specialtyRequired": {
+    "$oid": "665c1196029ecded6d88337b"
+  }
+},
+{
+  "_id": {
+    "$oid": "666142129a1a11070bdf6b02"
+  },
+  "name": "Fractura de hueso",
+  "description": "Rotura parcial o total de un hueso.",
+  "symptoms": "Dolor intenso, hinchazón, deformidad visible.",
+  "severity": "ALTO",
+  "specialtyRequired": {
+    "$oid": "665c1196029ecded6d88337c"
+  }
+},
+{
+  "_id": {
+    "$oid": "666142129a1a11070bdf6b05"
+  },
+  "name": "Luxación de articulación",
+  "description": "Desplazamiento anormal de los huesos en una articulación.",
+  "symptoms": "Dolor intenso, hinchazón, incapacidad para mover la articulación.",
+  "severity": "ALTO",
+  "specialtyRequired": {
+    "$oid": "665c1196029ecded6d88337c"
+  }
+}]

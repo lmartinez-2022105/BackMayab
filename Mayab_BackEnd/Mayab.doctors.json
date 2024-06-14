@@ -1,0 +1,483 @@
+[{
+  "_id": {
+    "$oid": "6661340966a2f14bb3e06eb9"
+  },
+  "name": "Juan",
+  "surname": "Pérez",
+  "specialty": {
+    "$oid": "665c1196029ecded6d88337e"
+  },
+  "openingHours": "08:00-17:00",
+  "gender": "male",
+  "sede": {
+    "$oid": "6656ce0fe5cec61d09955d91"
+  },
+  "DPI": {
+    "$numberLong": "1234567890123"
+  },
+  "phone": {
+    "$numberLong": "5551234567"
+  },
+  "ROL": "MEDICO",
+  "password": "$2b$10$NqT9rzbT0bOPxVKPAGeBr.iyRslSboqIs6suaFK5/e7c7HtlRCxbq"
+},
+{
+  "_id": {
+    "$oid": "6661340966a2f14bb3e06ec0"
+  },
+  "name": "María",
+  "surname": "López",
+  "specialty": {
+    "$oid": "665c1196029ecded6d88337f"
+  },
+  "openingHours": "09:00-18:00",
+  "gender": "female",
+  "sede": {
+    "$oid": "6656ce0fe5cec61d09955d94"
+  },
+  "DPI": {
+    "$numberLong": "1234567890124"
+  },
+  "phone": {
+    "$numberLong": "5551234568"
+  },
+  "ROL": "MEDICO",
+  "password": "$2b$10$N/aveIdXFXgBVkGTCVqxb.IbERJDzgKP/XIXuTMHoe6.Trfg0Qt8S"
+},
+{
+  "_id": {
+    "$oid": "6661340966a2f14bb3e06ec7"
+  },
+  "name": "Carlos",
+  "surname": "García",
+  "specialty": {
+    "$oid": "665c1196029ecded6d883380"
+  },
+  "openingHours": "10:00-19:00",
+  "gender": "male",
+  "sede": {
+    "$oid": "6656ce0fe5cec61d09955d97"
+  },
+  "DPI": {
+    "$numberLong": "1234567890125"
+  },
+  "phone": {
+    "$numberLong": "5551234569"
+  },
+  "ROL": "MEDICO",
+  "password": "$2b$10$qWMFUF/xmYdp7ej35DFwF.mpmkCJhdJ/T8GMdv.vLkJtD1IvygYpe"
+},
+{
+  "_id": {
+    "$oid": "6661340966a2f14bb3e06ece"
+  },
+  "name": "Ana",
+  "surname": "Martínez",
+  "specialty": {
+    "$oid": "665c1196029ecded6d883381"
+  },
+  "openingHours": "11:00-20:00",
+  "gender": "female",
+  "sede": {
+    "$oid": "6656ce0fe5cec61d09955d9a"
+  },
+  "DPI": {
+    "$numberLong": "1234567890126"
+  },
+  "phone": {
+    "$numberLong": "5551234570"
+  },
+  "ROL": "MEDICO",
+  "password": "$2b$10$.n08tkqsVsM.HkSKf9PEQujkuYQM4MPhuc3GsZKouxhbG3kslc0.u"
+},
+{
+  "_id": {
+    "$oid": "6661340966a2f14bb3e06ed5"
+  },
+  "name": "Luis",
+  "surname": "Hernández",
+  "specialty": {
+    "$oid": "665c1196029ecded6d883382"
+  },
+  "openingHours": "07:00-16:00",
+  "gender": "male",
+  "sede": {
+    "$oid": "6656ce0fe5cec61d09955d9d"
+  },
+  "DPI": {
+    "$numberLong": "1234567890127"
+  },
+  "phone": {
+    "$numberLong": "5551234571"
+  },
+  "ROL": "MEDICO",
+  "password": "$2b$10$X/X0haqQF0x3h.IVIfzTLulDKjVfkwecVK18AKuxPGt828y.ftqXG"
+},
+{
+  "_id": {
+    "$oid": "6661340966a2f14bb3e06edc"
+  },
+  "name": "Elena",
+  "surname": "Gómez",
+  "specialty": {
+    "$oid": "665c1196029ecded6d883374"
+  },
+  "openingHours": "08:00-17:00",
+  "gender": "female",
+  "sede": {
+    "$oid": "6656ce0fe5cec61d09955da0"
+  },
+  "DPI": {
+    "$numberLong": "1234567890128"
+  },
+  "phone": {
+    "$numberLong": "5551234572"
+  },
+  "ROL": "MEDICO",
+  "password": "$2b$10$ei3ZnGLwWqgDdIEDcqEOC.Zr0CXeBPab6TaFA/V5QxhsId4PiWVRa"
+},
+{
+  "_id": {
+    "$oid": "6661340a66a2f14bb3e06ee3"
+  },
+  "name": "Fernando",
+  "surname": "Ruiz",
+  "specialty": {
+    "$oid": "665c1196029ecded6d88337d"
+  },
+  "openingHours": "09:00-18:00",
+  "gender": "male",
+  "sede": {
+    "$oid": "6656ce0fe5cec61d09955da3"
+  },
+  "DPI": {
+    "$numberLong": "1234567890129"
+  },
+  "phone": {
+    "$numberLong": "5551234573"
+  },
+  "ROL": "MEDICO",
+  "password": "$2b$10$IzWWQaD5eHVauRbokZogbOT3oQiGvByDIgF5kB7mNqiFW3CDWYTkW"
+},
+{
+  "_id": {
+    "$oid": "6661340a66a2f14bb3e06eea"
+  },
+  "name": "Isabel",
+  "surname": "Ramírez",
+  "specialty": {
+    "$oid": "665c1196029ecded6d883375"
+  },
+  "openingHours": "10:00-19:00",
+  "gender": "female",
+  "sede": {
+    "$oid": "6656ce0fe5cec61d09955da6"
+  },
+  "DPI": {
+    "$numberLong": "1234567890130"
+  },
+  "phone": {
+    "$numberLong": "5551234574"
+  },
+  "ROL": "MEDICO",
+  "password": "$2b$10$Ag.dgfup51maSN7ENDwGw.z/n4WxBlOg5t1ak1vhU.B2cV50iTLmS"
+},
+{
+  "_id": {
+    "$oid": "6661340a66a2f14bb3e06ef1"
+  },
+  "name": "Javier",
+  "surname": "Torres",
+  "specialty": {
+    "$oid": "665c1196029ecded6d883376"
+  },
+  "openingHours": "11:00-20:00",
+  "gender": "male",
+  "sede": {
+    "$oid": "6656ce0fe5cec61d09955da9"
+  },
+  "DPI": {
+    "$numberLong": "1234567890131"
+  },
+  "phone": {
+    "$numberLong": "5551234575"
+  },
+  "ROL": "MEDICO",
+  "password": "$2b$10$t5GLmN4ml/LIJqaTzxqOru/gYxiOoOJuGLeZFll8JRLxmnG8QPUzG"
+},
+{
+  "_id": {
+    "$oid": "6661340a66a2f14bb3e06ef8"
+  },
+  "name": "Laura",
+  "surname": "Flores",
+  "specialty": {
+    "$oid": "665c1196029ecded6d883377"
+  },
+  "openingHours": "07:00-16:00",
+  "gender": "female",
+  "sede": {
+    "$oid": "6656ce0fe5cec61d09955d91"
+  },
+  "DPI": {
+    "$numberLong": "1234567890132"
+  },
+  "phone": {
+    "$numberLong": "5551234576"
+  },
+  "ROL": "MEDICO",
+  "password": "$2b$10$CfP97RefOraXWOH99JU2wO0T0NMim6yKETpG1uNpJrOLKEjs.qttK"
+},
+{
+  "_id": {
+    "$oid": "6661340a66a2f14bb3e06eff"
+  },
+  "name": "Alberto",
+  "surname": "Cruz",
+  "specialty": {
+    "$oid": "665c1196029ecded6d883378"
+  },
+  "openingHours": "08:00-17:00",
+  "gender": "male",
+  "sede": {
+    "$oid": "6656ce0fe5cec61d09955d94"
+  },
+  "DPI": {
+    "$numberLong": "1234567890133"
+  },
+  "phone": {
+    "$numberLong": "5551234577"
+  },
+  "ROL": "MEDICO",
+  "password": "$2b$10$R/2fd3cgmajobyeweCqKH.cxe5t.1pbBRp/TWLzho2trMQMWc5aC6"
+},
+{
+  "_id": {
+    "$oid": "6661340a66a2f14bb3e06f06"
+  },
+  "name": "Gabriela",
+  "surname": "Mendoza",
+  "specialty": {
+    "$oid": "665c1196029ecded6d883379"
+  },
+  "openingHours": "09:00-18:00",
+  "gender": "female",
+  "sede": {
+    "$oid": "6656ce0fe5cec61d09955d97"
+  },
+  "DPI": {
+    "$numberLong": "1234567890134"
+  },
+  "phone": {
+    "$numberLong": "5551234578"
+  },
+  "ROL": "MEDICO",
+  "password": "$2b$10$5e/GJNvU2k40x7Y9QZ7mruFbqfTMwsEq8jVbGiRyAZLqv0szvf9ei"
+},
+{
+  "_id": {
+    "$oid": "6661340a66a2f14bb3e06f0d"
+  },
+  "name": "Ricardo",
+  "surname": "Ortiz",
+  "specialty": {
+    "$oid": "665c1196029ecded6d88337a"
+  },
+  "openingHours": "10:00-19:00",
+  "gender": "male",
+  "sede": {
+    "$oid": "6656ce0fe5cec61d09955d9a"
+  },
+  "DPI": {
+    "$numberLong": "1234567890135"
+  },
+  "phone": {
+    "$numberLong": "5551234579"
+  },
+  "ROL": "MEDICO",
+  "password": "$2b$10$unsy/YuO133x5gjv74weM.pD1BOa3mFlub1zKC.JXZfHxoDrQLi6O"
+},
+{
+  "_id": {
+    "$oid": "6661340a66a2f14bb3e06f14"
+  },
+  "name": "Patricia",
+  "surname": "Chávez",
+  "specialty": {
+    "$oid": "665c1196029ecded6d88337b"
+  },
+  "openingHours": "11:00-20:00",
+  "gender": "female",
+  "sede": {
+    "$oid": "6656ce0fe5cec61d09955d9d"
+  },
+  "DPI": {
+    "$numberLong": "1234567890136"
+  },
+  "phone": {
+    "$numberLong": "5551234580"
+  },
+  "ROL": "MEDICO",
+  "password": "$2b$10$cZJHgJ67t81RZs2ACd/WXueLY8MkYhWT0I4FplQXpWivwn.AKHw/i"
+},
+{
+  "_id": {
+    "$oid": "6661340a66a2f14bb3e06f1b"
+  },
+  "name": "Andrés",
+  "surname": "Silva",
+  "specialty": {
+    "$oid": "665c1196029ecded6d88337c"
+  },
+  "openingHours": "07:00-16:00",
+  "gender": "male",
+  "sede": {
+    "$oid": "6656ce0fe5cec61d09955da0"
+  },
+  "DPI": {
+    "$numberLong": "1234567890137"
+  },
+  "phone": {
+    "$numberLong": "5551234581"
+  },
+  "ROL": "MEDICO",
+  "password": "$2b$10$/eyH4NBGb0Ckqj24DWDiiuXRvNpeQyGscuFZjg00PHEDsHM0.oBWW"
+},
+{
+  "_id": {
+    "$oid": "6661340a66a2f14bb3e06f22"
+  },
+  "name": "Marta",
+  "surname": "Rojas",
+  "specialty": {
+    "$oid": "665c1196029ecded6d883374"
+  },
+  "openingHours": "08:00-17:00",
+  "gender": "female",
+  "sede": {
+    "$oid": "6656ce0fe5cec61d09955da3"
+  },
+  "DPI": {
+    "$numberLong": "1234567890138"
+  },
+  "phone": {
+    "$numberLong": "5551234582"
+  },
+  "ROL": "MEDICO",
+  "password": "$2b$10$A.fSaChq8pnpPFlTsPPzNuk.5d53ueDXOn2SHwpNHJefyAgrJr9xC"
+},
+{
+  "_id": {
+    "$oid": "6661340b66a2f14bb3e06f29"
+  },
+  "name": "Santiago",
+  "surname": "Acosta",
+  "specialty": {
+    "$oid": "665c1196029ecded6d883375"
+  },
+  "openingHours": "09:00-18:00",
+  "gender": "male",
+  "sede": {
+    "$oid": "6656ce0fe5cec61d09955da6"
+  },
+  "DPI": {
+    "$numberLong": "1234567890139"
+  },
+  "phone": {
+    "$numberLong": "5551234583"
+  },
+  "ROL": "MEDICO",
+  "password": "$2b$10$J8PR5QNI4eo70jCrA.ipUeVG1nhbhBVNXqSnyKh8Kq9OxGNzMXGtm"
+},
+{
+  "_id": {
+    "$oid": "6661340b66a2f14bb3e06f30"
+  },
+  "name": "Natalia",
+  "surname": "Salazar",
+  "specialty": {
+    "$oid": "665c1196029ecded6d883376"
+  },
+  "openingHours": "10:00-19:00",
+  "gender": "female",
+  "sede": {
+    "$oid": "6656ce0fe5cec61d09955da9"
+  },
+  "DPI": {
+    "$numberLong": "1234567890140"
+  },
+  "phone": {
+    "$numberLong": "5551234584"
+  },
+  "ROL": "MEDICO",
+  "password": "$2b$10$GLsEQ5N4A977d9yhHUDtfu2NMVwoZvLdIoAocdSbga.ESaIDcpZW6"
+},
+{
+  "_id": {
+    "$oid": "6661340b66a2f14bb3e06f37"
+  },
+  "name": "Cristian",
+  "surname": "Pineda",
+  "specialty": {
+    "$oid": "665c1196029ecded6d883377"
+  },
+  "openingHours": "11:00-20:00",
+  "gender": "male",
+  "sede": {
+    "$oid": "6656ce0fe5cec61d09955d91"
+  },
+  "DPI": {
+    "$numberLong": "1234567890141"
+  },
+  "phone": {
+    "$numberLong": "5551234585"
+  },
+  "ROL": "MEDICO",
+  "password": "$2b$10$604Q7dunQ5gtj24w6DHP..ub8ZfoeGlGEEVMN32xYOE12Gl2VY7Ye"
+},
+{
+  "_id": {
+    "$oid": "6661340b66a2f14bb3e06f3e"
+  },
+  "name": "Rosa",
+  "surname": "Castro",
+  "specialty": {
+    "$oid": "665c1196029ecded6d883378"
+  },
+  "openingHours": "07:00-16:00",
+  "gender": "female",
+  "sede": {
+    "$oid": "6656ce0fe5cec61d09955d94"
+  },
+  "DPI": {
+    "$numberLong": "1234567890142"
+  },
+  "phone": {
+    "$numberLong": "5551234586"
+  },
+  "ROL": "MEDICO",
+  "password": "$2b$10$vaj3nLy/DwF7BNLmyb4TX.64PLXqqnCFUJugge2tgwp6n4bgJZ.gy"
+},
+{
+  "_id": {
+    "$oid": "6661340b66a2f14bb3e06f45"
+  },
+  "name": "Esteban",
+  "surname": "Vargas",
+  "specialty": {
+    "$oid": "665c1196029ecded6d883379"
+  },
+  "openingHours": "08:00-17:00",
+  "gender": "male",
+  "sede": {
+    "$oid": "6656ce0fe5cec61d09955d97"
+  },
+  "DPI": {
+    "$numberLong": "1234567890143"
+  },
+  "phone": {
+    "$numberLong": "5551234587"
+  },
+  "ROL": "MEDICO",
+  "password": "$2b$10$F0VkWAq09nld.4jjvR3UAe/pL9o0U4jROTTxoiWUjZHmDNUoLpZ8G"
+}]

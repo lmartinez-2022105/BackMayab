@@ -1,0 +1,438 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Mayab",
+    "collectionId": "64675e63-7a1c-4c1a-8495-fc85298f485b",
+    "dateExported": "2024-05-29T21:56:53.721Z",
+    "version": "1.2",
+    "folders": [
+        {
+            "_id": "03668764-31e7-493d-aa57-fdcbb8ba0206",
+            "name": "Disease",
+            "containerId": "",
+            "created": "2024-05-29T04:04:40.727Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "dba25b7f-68ba-47a5-8f72-1287edbf9e76",
+            "name": "User",
+            "containerId": "",
+            "created": "2024-05-29T04:11:42.366Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "b0f211bb-2aa6-40c5-bcff-8fc5046fead1",
+            "name": "Sedes",
+            "containerId": "",
+            "created": "2024-05-29T06:39:26.395Z",
+            "sortNum": 30000
+        },
+        {
+            "_id": "7fd79d6b-29f6-43b5-9aba-c8a54a6ae4bd",
+            "name": "Doctor",
+            "containerId": "",
+            "created": "2024-05-29T06:42:23.368Z",
+            "sortNum": 40000
+        },
+        {
+            "_id": "bafb4b80-068c-4321-aafe-28848c5e893d",
+            "name": "Date",
+            "containerId": "",
+            "created": "2024-05-29T20:30:05.699Z",
+            "sortNum": 50000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "171698ea-669f-4824-a6ba-18023766b6df",
+            "colId": "64675e63-7a1c-4c1a-8495-fc85298f485b",
+            "containerId": "03668764-31e7-493d-aa57-fdcbb8ba0206",
+            "name": "new",
+            "url": "/disease/new",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-05-29T04:04:45.607Z",
+            "modified": "2024-05-29T05:56:08.743Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NjU2YWJhYjI2NTAxYjNlMTlkNzQ0ZjQiLCJzdXJuYW1lIjoiSGVybsOhbmRleiIsIm5hbWUiOiJBbGVqYW5kcm8iLCJwaG9uZSI6NTQ4OTU2MzIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTcxNjk1NjE1NiwiZXhwIjoxNzE2OTg0OTU2fQ.ERG8D-jMoSTwi8G0b2a3o9DssXpM3aNB5W-WuRElynE"
+                }
+            ],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Desconozo mi enfermedad"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Coloca esta opción si desconoces si padeces de alguna enfermedad."
+                    },
+                    {
+                        "name": "symptoms",
+                        "value": "Esta opción abarca todos los sintomas que pueden provocar varias enfermedades."
+                    },
+                    {
+                        "name": "severity",
+                        "value": "MEDIO"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "0b9c6b44-797b-42f0-8549-7fe38b1a0685",
+            "colId": "64675e63-7a1c-4c1a-8495-fc85298f485b",
+            "containerId": "dba25b7f-68ba-47a5-8f72-1287edbf9e76",
+            "name": "register",
+            "url": "/user/register",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-05-29T04:11:47.091Z",
+            "modified": "2024-05-29T21:17:24.574Z",
+            "headers": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Astrid"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "García"
+                    },
+                    {
+                        "name": "DPI",
+                        "value": "5694812316475"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "547512123"
+                    },
+                    {
+                        "name": "password",
+                        "value": "administrador"
+                    },
+                    {
+                        "name": "email",
+                        "value": "agarcia@gmail.com"
+                    },
+                    {
+                        "name": "disease",
+                        "value": "6656c378f255e0cf42a4303b"
+                    },
+                    {
+                        "name": "specialty",
+                        "value": "Odontologo",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "gender",
+                        "value": "male",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "sede",
+                        "value": "6656ce0fe5cec61d09955d91",
+                        "isDisabled": true
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "00c5a5c3-b46d-4d52-b044-101f5e494f7c",
+            "colId": "64675e63-7a1c-4c1a-8495-fc85298f485b",
+            "containerId": "dba25b7f-68ba-47a5-8f72-1287edbf9e76",
+            "name": "login",
+            "url": "/user/login",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-05-29T04:14:52.726Z",
+            "modified": "2024-05-29T21:36:13.418Z",
+            "headers": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "phone",
+                        "value": "34960308"
+                    },
+                    {
+                        "name": "password",
+                        "value": "administrador"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "7f423c1e-14a7-498a-a9b5-713fa9d556b5",
+            "colId": "64675e63-7a1c-4c1a-8495-fc85298f485b",
+            "containerId": "03668764-31e7-493d-aa57-fdcbb8ba0206",
+            "name": "edit",
+            "url": "/disease/edit/6656b5d0d34eba982c99dd45",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-05-29T05:06:06.938Z",
+            "modified": "2024-05-29T05:23:52.376Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NjU2YWJhYjI2NTAxYjNlMTlkNzQ0ZjQiLCJzdXJuYW1lIjoiSGVybsOhbmRleiIsIm5hbWUiOiJBbGVqYW5kcm8iLCJwaG9uZSI6NTQ4OTU2MzIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTcxNjk1NjE1NiwiZXhwIjoxNzE2OTg0OTU2fQ.ERG8D-jMoSTwi8G0b2a3o9DssXpM3aNB5W-WuRElynE"
+                }
+            ],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "HelicobacterPylori",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "description",
+                        "value": "Enfermedad que provoca gastritis."
+                    },
+                    {
+                        "name": "symptoms",
+                        "value": "",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "severity",
+                        "value": "MEDIO",
+                        "isDisabled": true
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "0bdf526a-3161-4e5a-af79-8780917d537d",
+            "colId": "64675e63-7a1c-4c1a-8495-fc85298f485b",
+            "containerId": "03668764-31e7-493d-aa57-fdcbb8ba0206",
+            "name": "delete",
+            "url": "/disease/delete/6656b5d0d34eba982c99dd45",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-05-29T05:24:55.597Z",
+            "modified": "2024-05-29T05:26:12.235Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NjU2YWJhYjI2NTAxYjNlMTlkNzQ0ZjQiLCJzdXJuYW1lIjoiSGVybsOhbmRleiIsIm5hbWUiOiJBbGVqYW5kcm8iLCJwaG9uZSI6NTQ4OTU2MzIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTcxNjk1NjE1NiwiZXhwIjoxNzE2OTg0OTU2fQ.ERG8D-jMoSTwi8G0b2a3o9DssXpM3aNB5W-WuRElynE"
+                }
+            ]
+        },
+        {
+            "_id": "4644e052-1bd8-47e9-8ef9-a44614c5e51e",
+            "colId": "64675e63-7a1c-4c1a-8495-fc85298f485b",
+            "containerId": "03668764-31e7-493d-aa57-fdcbb8ba0206",
+            "name": "list",
+            "url": "/disease/list",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-05-29T05:29:10.558Z",
+            "modified": "2024-05-29T05:29:31.517Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NjU2YWJhYjI2NTAxYjNlMTlkNzQ0ZjQiLCJzdXJuYW1lIjoiSGVybsOhbmRleiIsIm5hbWUiOiJBbGVqYW5kcm8iLCJwaG9uZSI6NTQ4OTU2MzIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTcxNjk1NjE1NiwiZXhwIjoxNzE2OTg0OTU2fQ.ERG8D-jMoSTwi8G0b2a3o9DssXpM3aNB5W-WuRElynE"
+                }
+            ]
+        },
+        {
+            "_id": "dda41c62-9a70-4e54-b4cd-dec6c473496d",
+            "colId": "64675e63-7a1c-4c1a-8495-fc85298f485b",
+            "containerId": "03668764-31e7-493d-aa57-fdcbb8ba0206",
+            "name": "search",
+            "url": "/disease/search",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-05-29T05:43:32.581Z",
+            "modified": "2024-05-29T05:47:04.281Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NjU2YWJhYjI2NTAxYjNlMTlkNzQ0ZjQiLCJzdXJuYW1lIjoiSGVybsOhbmRleiIsIm5hbWUiOiJBbGVqYW5kcm8iLCJwaG9uZSI6NTQ4OTU2MzIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTcxNjk1NjE1NiwiZXhwIjoxNzE2OTg0OTU2fQ.ERG8D-jMoSTwi8G0b2a3o9DssXpM3aNB5W-WuRElynE"
+                }
+            ],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "severity",
+                        "value": "",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "symptoms",
+                        "value": "náuseas",
+                        "isDisabled": true
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "0a219a1b-5daf-43b3-801a-0f99d4537064",
+            "colId": "64675e63-7a1c-4c1a-8495-fc85298f485b",
+            "containerId": "b0f211bb-2aa6-40c5-bcff-8fc5046fead1",
+            "name": "new",
+            "url": "/sede/add",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2024-05-29T06:39:29.833Z",
+            "modified": "2024-05-29T06:41:19.948Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "[\n  {\n    \"nombre\": \"Hospital General de Enfermedades\",\n    \"direccion\": \"6a Calle 6-26, Zona 1, Ciudad de Guatemala\",\n    \"coordenadas\": [\n      {\n        \"latitud\": \"14.636015\",\n        \"longitud\": \"-90.511423\"\n      }\n    ],\n    \"departamento\": \"Guatemala\",\n    \"municipio\": \"Ciudad de Guatemala\",\n    \"telefono\": 22251234\n  },\n  {\n    \"nombre\": \"Centro de Salud de la Zona 11\",\n    \"direccion\": \"19 Avenida 2-20, Zona 11, Ciudad de Guatemala\",\n    \"coordenadas\": [\n      {\n        \"latitud\": \"14.609894\",\n        \"longitud\": \"-90.512894\"\n      }\n    ],\n    \"departamento\": \"Guatemala\",\n    \"municipio\": \"Ciudad de Guatemala\",\n    \"telefono\": 23341234\n  },\n  {\n    \"nombre\": \"Clínica de Especialidades de Villa Nueva\",\n    \"direccion\": \"Avenida Las Amapolas, Zona 3, Villa Nueva\",\n    \"coordenadas\": [\n      {\n        \"latitud\": \"14.526971\",\n        \"longitud\": \"-90.591175\"\n      }\n    ],\n    \"departamento\": \"Guatemala\",\n    \"municipio\": \"Villa Nueva\",\n    \"telefono\": 24181234\n  },\n  {\n    \"nombre\": \"Hospital Materno Infantil\",\n    \"direccion\": \"8a Calle A 16-89, Zona 6, Ciudad de Guatemala\",\n    \"coordenadas\": [\n      {\n        \"latitud\": \"14.637854\",\n        \"longitud\": \"-90.512010\"\n      }\n    ],\n    \"departamento\": \"Guatemala\",\n    \"municipio\": \"Ciudad de Guatemala\",\n    \"telefono\": 25671234\n  },\n  {\n    \"nombre\": \"Clínica de Atención Primaria de Mixco\",\n    \"direccion\": \"5a Avenida 6-20, Zona 1, Mixco\",\n    \"coordenadas\": [\n      {\n        \"latitud\": \"14.622816\",\n        \"longitud\": \"-90.606362\"\n      }\n    ],\n    \"departamento\": \"Guatemala\",\n    \"municipio\": \"Mixco\",\n    \"telefono\": 21231234\n  },\n  {\n    \"nombre\": \"Centro Médico de Quetzaltenango\",\n    \"direccion\": \"5a Calle 15-27, Zona 1, Quetzaltenango\",\n    \"coordenadas\": [\n      {\n        \"latitud\": \"14.834720\",\n        \"longitud\": \"-91.520126\"\n      }\n    ],\n    \"departamento\": \"Quetzaltenango\",\n    \"municipio\": \"Quetzaltenango\",\n    \"telefono\": 77661234\n  },\n  {\n    \"nombre\": \"Hospital de Coatepeque\",\n    \"direccion\": \"3a Avenida 2-20, Zona 1, Coatepeque\",\n    \"coordenadas\": [\n      {\n        \"latitud\": \"14.710965\",\n        \"longitud\": \"-91.873996\"\n      }\n    ],\n    \"departamento\": \"Quetzaltenango\",\n    \"municipio\": \"Coatepeque\",\n    \"telefono\": 77771234\n  },\n  {\n    \"nombre\": \"Clínica de Especialidades de Huehuetenango\",\n    \"direccion\": \"7a Calle 4-20, Zona 3, Huehuetenango\",\n    \"coordenadas\": [\n      {\n        \"latitud\": \"15.315032\",\n        \"longitud\": \"-91.479008\"\n      }\n    ],\n    \"departamento\": \"Huehuetenango\",\n    \"municipio\": \"Huehuetenango\",\n    \"telefono\": 77651234\n  },\n  {\n    \"nombre\": \"Centro de Salud de Chimaltenango\",\n    \"direccion\": \"2a Avenida 5-20, Zona 4, Chimaltenango\",\n    \"coordenadas\": [\n      {\n        \"latitud\": \"14.661281\",\n        \"longitud\": \"-90.819026\"\n      }\n    ],\n    \"departamento\": \"Chimaltenango\",\n    \"municipio\": \"Chimaltenango\",\n    \"telefono\": 78091234\n  },\n  {\n    \"nombre\": \"Hospital Regional de Escuintla\",\n    \"direccion\": \"10a Calle 1-20, Zona 5, Escuintla\",\n    \"coordenadas\": [\n      {\n        \"latitud\": \"14.302467\",\n        \"longitud\": \"-90.790544\"\n      }\n    ],\n    \"departamento\": \"Escuintla\",\n    \"municipio\": \"Escuintla\",\n    \"telefono\": 78891234\n  }\n]",
+                "form": []
+            }
+        },
+        {
+            "_id": "c4a62173-13cd-412e-a0bb-d7259115eea2",
+            "colId": "64675e63-7a1c-4c1a-8495-fc85298f485b",
+            "containerId": "7fd79d6b-29f6-43b5-9aba-c8a54a6ae4bd",
+            "name": "add",
+            "url": "/doctor/add",
+            "method": "POST",
+            "sortNum": 100000,
+            "created": "2024-05-29T06:42:28.313Z",
+            "modified": "2024-05-29T06:46:55.797Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "[\n  {\n    \"name\": \"Juan\",\n    \"surname\": \"Pérez\",\n    \"specialty\": \"Pediatría\",\n    \"gender\": \"male\",\n    \"sede\": \"6656ce0fe5cec61d09955d8e\",\n    \"DPI\": 1234567890101,\n    \"phone\": 11111111,\n    \"ROL\": \"MEDICO\",\n    \"password\": \"contraseña123\"\n  },\n  {\n    \"name\": \"María\",\n    \"surname\": \"López\",\n    \"specialty\": \"Ginecología\",\n    \"gender\": \"female\",\n    \"sede\": \"6656ce0fe5cec61d09955d91\",\n    \"DPI\": 2345678901234,\n    \"phone\": 22222222,\n    \"ROL\": \"MEDICO\",\n    \"password\": \"contraseña456\"\n  },\n  {\n    \"name\": \"Carlos\",\n    \"surname\": \"García\",\n    \"specialty\": \"Cardiología\",\n    \"gender\": \"male\",\n    \"sede\": \"6656ce0fe5cec61d09955d94\",\n    \"DPI\": 3456789012345,\n    \"phone\": 33333333,\n    \"ROL\": \"MEDICO\",\n    \"password\": \"contraseña789\"\n  },\n  {\n    \"name\": \"Ana\",\n    \"surname\": \"Martínez\",\n    \"specialty\": \"Neurología\",\n    \"gender\": \"female\",\n    \"sede\": \"6656ce0fe5cec61d09955d97\",\n    \"DPI\": 4567890123456,\n    \"phone\": 44444444,\n    \"ROL\": \"MEDICO\",\n    \"password\": \"contraseña012\"\n  },\n  {\n    \"name\": \"Pedro\",\n    \"surname\": \"Rodríguez\",\n    \"specialty\": \"Oftalmología\",\n    \"gender\": \"male\",\n    \"sede\": \"6656ce0fe5cec61d09955d9a\",\n    \"DPI\": 5678901234567,\n    \"phone\": 55555555,\n    \"ROL\": \"MEDICO\",\n    \"password\": \"contraseña345\"\n  },\n  {\n    \"name\": \"Laura\",\n    \"surname\": \"Gómez\",\n    \"specialty\": \"Dermatología\",\n    \"gender\": \"female\",\n    \"sede\": \"6656ce0fe5cec61d09955d9d\",\n    \"DPI\": 6789012345678,\n    \"phone\": 66666666,\n    \"ROL\": \"MEDICO\",\n    \"password\": \"contraseña678\"\n  },\n  {\n    \"name\": \"Miguel\",\n    \"surname\": \"Hernández\",\n    \"specialty\": \"Ortopedia\",\n    \"gender\": \"male\",\n    \"sede\": \"6656ce0fe5cec61d09955da0\",\n    \"DPI\": 7890123456789,\n    \"phone\": 77777777,\n    \"ROL\": \"MEDICO\",\n    \"password\": \"contraseña901\"\n  },\n  {\n    \"name\": \"Sofía\",\n    \"surname\": \"Díaz\",\n    \"specialty\": \"Endocrinología\",\n    \"gender\": \"female\",\n    \"sede\": \"6656ce0fe5cec61d09955da3\",\n    \"DPI\": 8901234567890,\n    \"phone\": 88888888,\n    \"ROL\": \"MEDICO\",\n    \"password\": \"contraseña234\"\n  },\n  {\n    \"name\": \"Javier\",\n    \"surname\": \"Alvarez\",\n    \"specialty\": \"Urología\",\n    \"gender\": \"male\",\n    \"sede\": \"6656ce0fe5cec61d09955da6\",\n    \"DPI\": 9012345678901,\n    \"phone\": 99999999,\n    \"ROL\": \"MEDICO\",\n    \"password\": \"contraseña567\"\n  },\n  {\n    \"name\": \"Elena\",\n    \"surname\": \"Gutiérrez\",\n    \"specialty\": \"Psiquiatría\",\n    \"gender\": \"female\",\n    \"sede\": \"6656ce0fe5cec61d09955da9\",\n    \"DPI\": 1023456789012,\n    \"phone\": 10101010,\n    \"ROL\": \"MEDICO\",\n    \"password\": \"contraseña890\"\n  },\n  {\n    \"name\": \"Pablo\",\n    \"surname\": \"Sánchez\",\n    \"specialty\": \"Oncología\",\n    \"gender\": \"male\",\n    \"sede\": \"6656ce0fe5cec61d09955d8e\",\n    \"DPI\": 1123456789012,\n    \"phone\": 12121212,\n    \"ROL\": \"MEDICO\",\n    \"password\": \"contraseña123\"\n  },\n  {\n    \"name\": \"Isabel\",\n    \"surname\": \"Flores\",\n    \"specialty\": \"Nefrología\",\n    \"gender\": \"female\",\n    \"sede\": \"6656ce0fe5cec61d09955d91\",\n    \"DPI\": 1223456789012,\n    \"phone\": 13131313,\n    \"ROL\": \"MEDICO\",\n    \"password\": \"contraseña456\"\n  },\n  {\n    \"name\": \"Luis\",\n    \"surname\": \"Castillo\",\n    \"specialty\": \"Neumología\",\n    \"gender\": \"male\",\n    \"sede\": \"6656ce0fe5cec61d09955d94\",\n    \"DPI\": 1323456789012,\n    \"phone\": 14141414,\n    \"ROL\": \"MEDICO\",\n    \"password\": \"contraseña789\"\n  },\n  {\n    \"name\": \"Lucía\",\n    \"surname\": \"Molina\",\n    \"specialty\": \"Gastroenterología\",\n    \"gender\": \"female\",\n    \"sede\": \"6656ce0fe5cec61d09955d97\",\n    \"DPI\": 1423456789012,\n    \"phone\": 15151515,\n    \"ROL\": \"MEDICO\",\n    \"password\": \"contraseña012\"\n  },\n  {\n    \"name\": \"Raúl\",\n    \"surname\": \"Ramírez\",\n    \"specialty\": \"Radiología\",\n    \"gender\": \"male\",\n    \"sede\": \"6656ce0fe5cec61d09955d9a\",\n    \"DPI\": 1523456789012,\n    \"phone\": 16161616,\n    \"ROL\": \"MEDICO\",\n    \"password\": \"contraseña345\"\n  },\n  {\n    \"name\": \"Valeria\",\n    \"surname\": \"Navarro\",\n    \"specialty\": \"Dermatología\",\n    \"gender\": \"female\",\n    \"sede\": \"6656ce0fe5cec61d09955da3\",\n    \"DPI\": 1623456789012,\n    \"phone\": 17171717,\n    \"ROL\": \"MEDICO\",\n    \"password\": \"contraseña678\"\n  },\n  {\n    \"name\": \"Alejandro\",\n    \"surname\": \"Herrera\",\n    \"specialty\": \"Cardiología\",\n    \"gender\": \"male\",\n    \"sede\": \"6656ce0fe5cec61d09955da6\",\n    \"DPI\": 1723456789012,\n    \"phone\": 18181818,\n    \"ROL\": \"MEDICO\",\n    \"password\": \"contraseña901\"\n  },\n  {\n    \"name\": \"Marcela\",\n    \"surname\": \"Gómez\",\n    \"specialty\": \"Ginecología\",\n    \"gender\": \"female\",\n    \"sede\": \"6656ce0fe5cec61d09955da9\",\n    \"DPI\": 1823456789012,\n    \"phone\": 19191919,\n    \"ROL\": \"MEDICO\",\n    \"password\": \"contraseña234\"\n  },\n  {\n    \"name\": \"Roberto\",\n    \"surname\": \"Pérez\",\n    \"specialty\": \"Oftalmología\",\n    \"gender\": \"male\",\n    \"sede\": \"6656ce0fe5cec61d09955d8e\",\n    \"DPI\": 1923456789012,\n    \"phone\": 20202020,\n    \"ROL\": \"MEDICO\",\n    \"password\": \"contraseña567\"\n  },\n  {\n    \"name\": \"Adriana\",\n    \"surname\": \"Martínez\",\n    \"specialty\": \"Pediatría\",\n    \"gender\": \"female\",\n    \"sede\": \"6656ce0fe5cec61d09955d91\",\n    \"DPI\": 2023456789012,\n    \"phone\": 21212121,\n    \"ROL\": \"MEDICO\",\n    \"password\": \"contraseña890\"\n  }\n]",
+                "form": []
+            }
+        },
+        {
+            "_id": "2c5ca915-bdf3-4239-a235-0e8644a7d050",
+            "colId": "64675e63-7a1c-4c1a-8495-fc85298f485b",
+            "containerId": "7fd79d6b-29f6-43b5-9aba-c8a54a6ae4bd",
+            "name": "list",
+            "url": "/doctor/list",
+            "method": "GET",
+            "sortNum": 110000,
+            "created": "2024-05-29T06:49:30.969Z",
+            "modified": "2024-05-29T06:49:41.645Z",
+            "headers": []
+        },
+        {
+            "_id": "a2066416-bce4-4b2e-aad2-89ca224ff196",
+            "colId": "64675e63-7a1c-4c1a-8495-fc85298f485b",
+            "containerId": "7fd79d6b-29f6-43b5-9aba-c8a54a6ae4bd",
+            "name": "updatePacient",
+            "url": "/doctor/updateDisease",
+            "method": "PUT",
+            "sortNum": 120000,
+            "created": "2024-05-29T08:41:40.193Z",
+            "modified": "2024-05-29T09:16:46.369Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NjU2ZjBmYjRhMTI1ZmJjODAzMTIyNTAiLCJzdXJuYW1lIjoiU2FsZGHDsWEiLCJuYW1lIjoiQXJ0dXJvIiwicGhvbmUiOjY5MzIzMjU2LCJyb2xlIjoiTUVESUNPIiwiaWF0IjoxNzE2OTc0MDA2LCJleHAiOjE3MTcwMDI4MDZ9.xsvJS06j90QwO874Ze9i7fuKURWj2-N0g0qbLDjzLTk"
+                }
+            ],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "userId",
+                        "value": "6656ec3756bd6fb75b67a4aa"
+                    },
+                    {
+                        "name": "diseaseId",
+                        "value": "6656b2680b521d47c4ef498b"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "76ad7fac-94cc-4440-9476-3e63183b192e",
+            "colId": "64675e63-7a1c-4c1a-8495-fc85298f485b",
+            "containerId": "bafb4b80-068c-4321-aafe-28848c5e893d",
+            "name": "update",
+            "url": "/date/updateDate/6656ec3756bd6fb75b67a4b8",
+            "method": "PUT",
+            "sortNum": 130000,
+            "created": "2024-05-29T20:30:09.628Z",
+            "modified": "2024-05-29T20:57:01.888Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NjU2YWJhYjI2NTAxYjNlMTlkNzQ0ZjQiLCJzdXJuYW1lIjoiSGVybsOhbmRleiIsIm5hbWUiOiJBbGVqYW5kcm8iLCJwaG9uZSI6NTQ4OTU2MzIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTcxNzAxNTA2MCwiZXhwIjoxNzE3MDQzODYwfQ.60ATkDFVXPnL7tObiusb6gI27V7SXmGeg_1y9HZ5qo0"
+                }
+            ],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "date",
+                        "value": "2024-06-15"
+                    },
+                    {
+                        "name": "time",
+                        "value": "13:30"
+                    },
+                    {
+                        "name": "doctor",
+                        "value": "6656ebef56bd6fb75b67a47e"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "0d4a35bd-23e8-4d7b-8d61-f8a759bf2271",
+            "colId": "64675e63-7a1c-4c1a-8495-fc85298f485b",
+            "containerId": "bafb4b80-068c-4321-aafe-28848c5e893d",
+            "name": "delete",
+            "url": "/date/deleteDate/6656f635b62ebd6c2fc83eb3",
+            "method": "DELETE",
+            "sortNum": 140000,
+            "created": "2024-05-29T21:29:44.748Z",
+            "modified": "2024-05-29T21:30:26.473Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NjU2YWJhYjI2NTAxYjNlMTlkNzQ0ZjQiLCJzdXJuYW1lIjoiSGVybsOhbmRleiIsIm5hbWUiOiJBbGVqYW5kcm8iLCJwaG9uZSI6NTQ4OTU2MzIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTcxNzAxNTA2MCwiZXhwIjoxNzE3MDQzODYwfQ.60ATkDFVXPnL7tObiusb6gI27V7SXmGeg_1y9HZ5qo0"
+                }
+            ]
+        },
+        {
+            "_id": "5f6deb38-6889-4e1c-912f-cb10691a0185",
+            "colId": "64675e63-7a1c-4c1a-8495-fc85298f485b",
+            "containerId": "bafb4b80-068c-4321-aafe-28848c5e893d",
+            "name": "myDate",
+            "url": "/date/myDate",
+            "method": "GET",
+            "sortNum": 150000,
+            "created": "2024-05-29T21:35:31.462Z",
+            "modified": "2024-05-29T21:36:25.366Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NjU2ZWMzNzU2YmQ2ZmI3NWI2N2E0YWEiLCJzdXJuYW1lIjoiTMOzcGV6IiwibmFtZSI6Ikxlc3RlciIsInBob25lIjozNDk2MDMwOCwicm9sZSI6IkFGSUxJQURPIiwiaWF0IjoxNzE3MDE4NTczLCJleHAiOjE3MTcwNDczNzN9.gqJ9jGtJJm4KulpjhsXDarmva4E4TIi9Fy25Z6Ray4k"
+                }
+            ]
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "localhost:2656"
+        }
+    },
+    "ref": "WTsv-5zrAeY6hURgPKzUTEf58N9MITri_lHGNaChteb18o8vIikRWNissKM7ffWiFbGra1GM-fvlIXezb2aqrQ"
+}

@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "6662a48ef9d043a7d69b2955"
+  },
+  "name": "Lester",
+  "surname": "Galvez",
+  "DPI": "0982312356785",
+  "phone": "12398737",
+  "status": false,
+  "sede": {
+    "$oid": "6662a3c6f9d043a7d69b294a"
+  }
+}]
